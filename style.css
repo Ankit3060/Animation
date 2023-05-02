@@ -1,0 +1,36 @@
+@keyframes slideleft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+    
+}
+
+.heading1{
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: ;
+    animation-fill-mode: ;
+}
+
+.rotate{
+    animation-name: ankit;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform-origin: top left;
+
+}
+@keyframes ankit {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
